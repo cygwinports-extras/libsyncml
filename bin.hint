@@ -1,0 +1,4 @@
+category: Net
+requires: cygwin glib2 libsyncml0
+sdesc: "SyncML protocol implementation (utilities)"
+ldesc: "Libsyncml is a implementation of the SyncML protocol."

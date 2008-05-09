@@ -1,0 +1,96 @@
+libsyncml
+------------------------------------------
+Libsyncml is a implementation of the SyncML protocol.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  glib2-2.14.6-1
+  libsoup22_8-2.2.104-1
+  libwbxml2_0-0.9.2-1
+  libxml2-2.6.32-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.25-7
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  bison-2.3-1
+  cygport-0.3.8-1
+  flex-2.5.34-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://libsyncml.opensync.org/
+
+Canonical download:
+  http://libsyncml.opensync.org/download/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libsyncml-0.4.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libsyncml-0.4.6-X.cygport all
+
+This will create:
+  /usr/src/libsyncml-0.4.6-X-src.tar.bz2
+  /usr/src/libsyncml-0.4.6-X.tar.bz2
+  /usr/src/libsyncml-devel-0.4.6-X.tar.bz2
+  /usr/src/libsyncml0-0.4.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libsyncml)
+  /usr/bin/syncml-http-client.exe
+  /usr/bin/syncml-http-server.exe
+  /usr/share/doc/libsyncml-0.4.6/AUTHORS
+  /usr/share/doc/libsyncml-0.4.6/COPYING
+  /usr/share/doc/libsyncml-0.4.6/README
+
+(libsyncml0)
+  /usr/bin/cygsyncml-0.dll
+
+(libsyncml-devel)
+  /usr/include/libsyncml-1.0/libsyncml/http_client.h
+  /usr/include/libsyncml-1.0/libsyncml/http_server.h
+  /usr/include/libsyncml-1.0/libsyncml/obex_client.h
+  /usr/include/libsyncml-1.0/libsyncml/obex_server.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_auth.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_base64.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_command.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_defines.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_devinf.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_devinf_obj.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_ds_server.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_elements.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_error.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_manager.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_md5.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_notification.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_parse.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_session.h
+  /usr/include/libsyncml-1.0/libsyncml/sml_transport.h
+  /usr/include/libsyncml-1.0/libsyncml/syncml.h
+  /usr/lib/libsyncml.dll.a
+  /usr/lib/pkgconfig/libsyncml-1.0.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.4.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
