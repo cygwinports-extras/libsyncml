@@ -1,5 +1,5 @@
 category: Net
-requires: cygwin libsyncml0
+requires: libsyncml0
 external-source: libsyncml
 sdesc: "SyncML protocol implementation (libdevel)"
 ldesc: "Libsyncml is a implementation of the SyncML protocol."
